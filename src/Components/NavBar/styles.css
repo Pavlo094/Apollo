@@ -1,0 +1,77 @@
+#nav-fixed {
+  flex: none;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: pink;
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: white;
+  background-color: #0F1B39;
+  z-index: 10;
+}
+
+#nav-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#nav-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#nav-button-text {
+  /* display: flex; */
+  /* margin-left: 10px; */
+
+  font-weight: 500;
+  text-transform: none;
+
+  cursor: default;
+}
+
+#nav-button-container {
+  margin-left: 20px;
+}
+
+#nav-title-text {
+  text-align: center;
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #FEB202;
+
+  cursor: default;
+}
+
+#nav-logout, #nav-button-text {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#nav-logout:hover, #nav-button-text:hover {
+  color: #FEB202;
+  transform: scale(1.05);
+}
+
+#nav-logout:active, #nav-button-text:active {
+  transform: scale(1);
+}

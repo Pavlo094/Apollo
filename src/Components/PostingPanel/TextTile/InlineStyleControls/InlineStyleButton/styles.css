@@ -1,0 +1,15 @@
+.toolbar-inline-button {
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+  color: #b3b3b3;
+  line-height: 33px;
+}
+
+.toolbar-inline-button-active {
+  color: #FEB202;
+}
+
+.fa-underline {
+  margin-bottom: -2px;
+}

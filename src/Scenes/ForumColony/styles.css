@@ -1,0 +1,38 @@
+#bg-forum-colony {
+  height: 100%;
+  width: 100%;
+  min-width:  1000px;
+  min-height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* #forum-colony-workspace {
+  background-color: red;
+  height: 900px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#forum-colony-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#forum-colony-select-container {
+  /* flex: 1; */
+  height: 500px;
+  width: 900px;
+  margin: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+
+  border-radius: 20px;
+
+  box-shadow: 0 1px 1px gray;
+  overflow: scroll;
+}

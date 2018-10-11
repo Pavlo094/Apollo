@@ -1,0 +1,122 @@
+.root-container {
+  position: relative;
+
+  background-image: url('https://trello-attachments.s3.amazonaws.com/5a42ab89cda0857d492b333d/5b3aab246d89cc906e1202e0/9d1984528335f4cd10810e1844a95feb/static_image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.auth-container > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.auth-container > div:focus {
+  transform: scale(0.9);
+}
+
+.auth-container > div:hover {
+  cursor: pointer;
+}
+
+.auth-container > div:first-child {
+  margin-bottom: 20px;
+}
+
+.signup-hex-container > p, .signup-hex-container > i {
+  position: absolute;
+}
+
+.signin-hex-container > p, .signin-hex-container > i {
+  position: absolute;
+}
+
+.signup-hex-container > i, .signin-hex-container > i  {
+  font-size: 35px;
+  color: white;
+  left: 30px;
+  top: 40px;
+}
+
+.auth-container .icon-text {
+  margin: 0;
+  top: 16px;
+  left: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  color: white;
+
+  transform: rotate(-32deg);
+}
+
+#signup-modal-container, #signin-modal-container {
+  position: absolute;
+  left: 130%;
+}
+
+#signup-modal-container {
+  width: 30vw;
+  top: 0;
+}
+
+#signin-modal-container {
+  width: 30vw;
+}
+
+#signup-modal-container:after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid rgba(101,72,148, 0.9);
+}
+
+#signin-modal-container:after {
+  content: "";
+  position: absolute;
+  top: 42%;
+  left: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid rgba(101,72,148, 0.9);
+}
+
+.auth-modal-container {
+  padding: 30px;
+  min-width: 370px;
+  max-width: 450px;
+
+  visibility: hidden;
+  background: linear-gradient(to right, rgba(101,72,148, 0.9), rgba(93,116,223, 0.9));
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px 3px rgba(125, 125, 125, 0.3)
+}
+
+.active {
+  visibility: visible;
+  z-index: 1000;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

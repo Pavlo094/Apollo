@@ -1,0 +1,1 @@
+export { ColonyHex } from './ColonyHex';

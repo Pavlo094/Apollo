@@ -1,0 +1,51 @@
+#discard-draft-modal-container {
+  position: relative;
+  flex: none;
+  height: auto;
+  width: 500px;
+  background-image: url('https://s3.pixers.pics/pixers/700/FO/62/95/22/52/700_FO62952252_f354eca0b3509b35b289e692db7f62de.jpg');
+  z-index: 999;
+}
+
+#discard-draft-buttons-container {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+
+  box-sizing: border-box;
+
+  background-color: #0F1B39;
+}
+
+#discard-draft-text {
+  color: #0F1B39;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#invert-submit-tile-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 50%;
+
+  border: 2px solid #FEB202;
+  border-radius: 5px;
+
+  color: #FEB202;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+#invert-submit-tile-button:hover {
+  background-color: #FEB202;
+  color: #0F1B39;
+  cursor: pointer;
+}
+
+#invert-submit-tile-button:active {
+  transform: scale(0.9);
+}

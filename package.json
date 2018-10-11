@@ -1,0 +1,53 @@
+{
+  "name": "jh-webpost",
+  "version": "0.1.001",
+  "description": "Web client for creating Just Hive posts on the web",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --config prod.config.js",
+    "start": "NODE_ENV=development webpack-dev-server --config dev.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "moment": "^2.22.2",
+    "react-redux": "^5.0.7",
+    "react-sortable-hoc": "^0.8.0",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.31.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "draft-js": "0.10.4",
+    "draft-js-custom-styles": "2.0.1",
+    "draft-js-export-html": "1.2.0",
+    "draftjs-to-html": "0.8.3",
+    "lodash": "^4.17.4",
+    "npm": "^6.4.1",
+    "react": "^16.4.2",
+    "react-color": "2.13.8",
+    "react-dom": "^16.4.2",
+    "react-draggable": "^3.0.5",
+    "react-dropzone": "^4.3.0",
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.4.5",
+    "superagent": "^3.8.3",
+    "uuid": "^3.3.2"
+  }
+}

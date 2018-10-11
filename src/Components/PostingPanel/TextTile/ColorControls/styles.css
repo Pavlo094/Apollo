@@ -1,0 +1,10 @@
+.toolbar-button-group {
+  font-family: 'Helvetica', sans-serif;
+  margin: 5px;
+  user-select: none;
+  background: #141c36;
+  display: inline-flex;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

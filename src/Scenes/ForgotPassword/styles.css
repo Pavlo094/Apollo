@@ -1,0 +1,13 @@
+#login-container > p {
+  margin-bottom: 50px;
+  box-sizing: content-box;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+#no-wrap {
+  white-space: nowrap;
+}

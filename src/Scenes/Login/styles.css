@@ -1,0 +1,140 @@
+#flex-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-form > h1 {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.small-margin {
+  margin: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 3px 10px;
+
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px 0px rgba(25, 25, 25, 0.4);
+}
+
+.email-input{
+  margin-bottom: 40px;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+input, button {
+  flex: 2;
+  width: 100%;
+
+  border:none;
+  background-image:none;
+  background-color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  line-height: 20px;
+  font-size: 16px;
+  color: #6d6d6d;
+}
+
+.input-container > i {
+  padding: 0 5px;
+  font-size: 20px;
+  color: #6d6d6d;
+}
+
+.error-message {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  width: auto;
+  padding: 0 40px;
+  margin: 20px 0;
+
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+  box-sizing: content-box;
+  border-radius: 30px;
+  box-shadow: 3px 3px 10px 0px rgba(25, 25, 25, 0.4);
+  background: linear-gradient(to right, #4ea2af, #3ddd92);
+}
+
+.submit-button > i {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.sign-up-link-container {
+  text-align: center;
+}
+
+.sign-up-link-container p {
+  margin-top: 30px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+.sign-up-link-container a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #0F1B39;
+}
+
+.link {
+  font-family: 'Montserrat', sans-serif;
+  color: #0F1B39;
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link-small {
+  font-size: 15px;
+}
+
+.link-large {
+  font-size: 20px;
+}

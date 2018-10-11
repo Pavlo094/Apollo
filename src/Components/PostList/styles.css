@@ -1,0 +1,30 @@
+.post-list-container {
+  margin: 75px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.post-items-container {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#post-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+#post-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

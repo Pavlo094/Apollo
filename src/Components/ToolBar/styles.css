@@ -1,0 +1,26 @@
+.toolbar-container {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+}
+
+.toolbar-button-group-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+}
+
+.toolbar-button {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

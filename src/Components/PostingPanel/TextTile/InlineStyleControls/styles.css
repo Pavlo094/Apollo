@@ -1,0 +1,14 @@
+.toolbar-inline-button-group {
+  display: inline-flex;
+  justify-content: space-around;
+  flex: 1;
+  margin: 5px;
+
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  user-select: none;
+  background: #141c36;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

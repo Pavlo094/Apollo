@@ -1,0 +1,25 @@
+#text-tile-container {
+  position: relative;
+  flex: none;
+  height: 600px;
+  width: 500px;
+  background-image: url('https://s3.pixers.pics/pixers/700/FO/62/95/22/52/700_FO62952252_f354eca0b3509b35b289e692db7f62de.jpg');
+  z-index: 999;
+}
+
+#background-overlay {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add-tile-container {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  flex-flow: column;
+  box-sizing: content-box;
+}

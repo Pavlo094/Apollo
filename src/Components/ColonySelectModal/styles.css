@@ -1,0 +1,13 @@
+#colony-select-modal-container {
+  width: 900px;
+  background-color: white;
+}
+
+#colony-select-modal-container #colony-filter-container {
+  margin-top: 0;
+}
+
+#colony-select-modal-container #colony-select-container {
+  border-radius: 0;
+  box-shadow: none;
+}

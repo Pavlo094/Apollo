@@ -1,0 +1,10 @@
+.toolbar-button {
+  color: #999;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.toolbar-button-active {
+  color: #FEB202;
+}
